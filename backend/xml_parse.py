@@ -6,4 +6,7 @@ with open('movie-dump.xml','rb') as tv_file:
 
 for tag in soup.tv:
     if tag.name == "channel":
+        continue
+    elif tag.name == 'programme':
+        continue
 
